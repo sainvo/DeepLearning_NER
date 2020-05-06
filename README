@@ -1,0 +1,10 @@
+# Data built as follows:
+
+git clone https://github.com/yuchenlin/OntoNotes-5.0-NER-BIO
+cd OntoNotes-5.0-NER-BIO/
+python3 agg.py
+
+for s in train dev test; do
+    cut -f 1,4 onto.${s}* | cat -s | tail -n +2 \
+        | perl -pe 's/^-LRB-/\(/; s/^-RRB-/\)/' > $s.tsv
+done
