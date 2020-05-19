@@ -1,0 +1,3 @@
+I changed the activation from relu to sigmoid and changed the learning rate from 0.001 to 0.005. 
+I also tried tanh and some other learning rates and all sorts of combinations. 
+The results were kind of similar, but I think sigmoid is the best choice.
