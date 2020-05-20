@@ -1,4 +1,5 @@
 The documents relevant for the evaluation of this project are located in the folder NER task Final docs. 
-There are two main development notebooks, DL_NER_FINAL and DL_NER_with_context, as I decided not to merge them in order to protect Tatjana's version from any modifications mine might bring to it. 
+There are two main development notebooks, DL_NER_FINAL and DL_NER_with_context, as I decided not to merge them 
+in order to protect Tatjana's version and outputs from any modifications mine might bring to it, or I might accidentally produce. 
 Thus, the first contains Milestones 2-3 in parts that Tatjana finished them, and the second contains Milestone 1 
 as I finished it with a functioning model that uses context.  
