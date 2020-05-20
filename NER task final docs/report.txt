@@ -1,9 +1,11 @@
 Milestone 1:
 
+- cleaned the data, f.ex. nested items that created over long sentence items (SV)
 - Trained models with an evaluation of the f score on entity level
 - Experimented with different activation functions, learning rates and optimizers
-- Most models did not perform well, however Adadelta with sigmoid as an activation and a learning rate of 0.07 managed to produce a model with f score of 0.9
+- Most models did not perform well, however Adadelta with sigmoid as an activation and a learning rate of 0.07 managed to produce a model with f score of 0.9 (noteSV: I got all zeros with this using the clean data??)
 - Expanded the model with an LSTM
+- trained Bidirectional LSTM (SV)
 
 Milestone 2:
 - Tried to use cased Bert, had some problems with input data
